@@ -1,0 +1,63 @@
+.body{
+    margin: o;
+    border: 0;
+    padding: 0;
+}
+.container .header h1{
+    font-size: 48px;
+    font-family: roboto;
+    color: black;
+    padding: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    background-color: rgba(225, 192, 203, 0.7);
+}
+.container .box{
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    background-image: url(Images/hair1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+.container .box1{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(225, 192, 203, 0.7);
+    padding: 12px;
+    margin-bottom: 0;
+}
+.container .box2{
+width: 100%;
+height: 500px;
+background-color: rgba(225, 192, 203, 0.7);
+padding: 12px;
+}
+
+@media (min-width:900px){
+    .container .box1 .img1{
+        display: flex;
+    }
+    .container .box1 .img1 img:not(:first-child) {
+        margin-left: 300px;
+        border-radius: 90px;
+    }
+    .container .box2 .img2{
+        display: flex;
+    }
+    .container .box2 .img2 img:not(:first-child) {
+        margin-left: 300px;
+        border-radius: 90px;
+    }
+
+}
